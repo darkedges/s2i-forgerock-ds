@@ -4,9 +4,10 @@
 
 ```console
 docker build . -t darkedges/s2i-forgerock-ds:7.2.0
+docker push 
 ```
 
-## smample
+## sample
 
 ```console
 s2i build test/test-app/ darkedges/s2i-forgerock-ds myapp

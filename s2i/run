@@ -45,7 +45,7 @@ upgrade() {
 }
 
 
-CMD="${1:-start}"
+CMD="${1:-init_start}"
 cd /opt/frds
 case "$CMD" in
 start)
